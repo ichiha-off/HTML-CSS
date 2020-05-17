@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 960px;
+    margin: 50px auto;
+}
+h3 {
+    margin: 10px 0;
+}
+.step1 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(204, 203, 203);
+    position: relative;
+    display: inline-block;
+}
+.step2 {
+    width: 300px;
+    padding: 10px;
+    margin: 0 30px;
+    border: 1px solid rgb(204, 203, 203);
+    position: relative;
+    display: inline-block;
+}
+.step3 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(204, 203, 203);
+    position: relative;
+    display: inline-block;
+}
+.step1-img, .step2-img, .step3-img{
+    width: 280px;
+    height: 150px;
+    
+}
+.logo {
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+  .step1 {
+      width: 90%;
+      margin: 50px auto 0;
+      display: block;
+  }
+  .step2 {
+      width: 90%;
+      margin: 20px auto;
+      display: block;
+      
+  }
+  .step3 {
+      width: 90%;
+      margin: 0 auto 50px;
+      display: block;
+      
+  }
+  .step1-img, .step2-img, .step3-img {
+      width: 100%;
+      padding: 2%;
+      height: auto;
+  }
+  
+}
